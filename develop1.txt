@@ -1,0 +1,14 @@
+git checkout master
+-Returns you to the master branch
+git branch -D develop newfeature
+-Deletes this branch locally
+git push origin :develop :newfeature
+-Deletes the branches in the remote repository
+git tag -d V0.1
+-Deletes this tag locally
+git push origin :V0.1
+-Deletes this tag in the remote repository
+git reset --hard <last commit id>
+-resets your local repository to the commit id you input
+git push -force
+this will force a push of the blank local repository
